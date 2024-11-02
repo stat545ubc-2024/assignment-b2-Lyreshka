@@ -2,10 +2,7 @@
 
 The `summarize_and_plot` function generates summary statistics (mean, median, standard deviation, max, min) of specified numeric columns grouped by one or more variables, and creates plots (e.g., box, scatter, density, histogram, or bar plots) for each column or as combined plots, depending on the specified combined_plot argument. I designed the `summarize_and_plot`function to be a quick and efficient data exploration tool, that allows for an overview of key trends before a more in-depth analysis. Additionally, the reasoning behind the name is that it combines summary statistics and customization of basics plots rapidly asses relationships.
 
-# summarizePlotR
-
-<!-- badges: start -->
-<!-- badges: end -->
+# Library(summarizePlotR)
 
 `summarizePlotR` is an R package designed to streamline the process of creating exploratory summary statistics and visualizations for categorical and continuous variables in your datasets. Ideal for initial data exploration, it provides an efficient way to inspect relationships between variables through summary tables and plots.  
 
@@ -15,7 +12,7 @@ You can install the development version of summarizePlotR from [GitHub](https://
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("org/repo", ref = "0.1.0")
+devtools::install_github("Lyreshka/summarizePlotR")
 
 ```
 # Usage
