@@ -1,13 +1,19 @@
 Package: summarizePlotR
-Title: summarize_and_plot:generates summary statistics and creates plots
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Title: summarize_and_plot: generates summary statistics and creates plots
+Version: 0.1.0
+Authors@R: c(
+  person("Lyreshka", "Castro Morales", email = "Lyreshka@student.ubc.ca", role = c("aut", "cre")))
+Description: The `summarize_and_plot` function generates summary statistics (mean, median, standard deviation, max, min) of specified numeric columns grouped by one or more variables, and creates plots (e.g., box, scatter, density, histogram, or bar plots) for each column or as combined plots, depending on the specified combined_plot argument. I designed the `summarize_and_plot`function to be a quick and efficient data exploration tool, that allows for an overview of key trends before a more in-depth analysis. Additionally, the reasoning behind the name is that it combines summary statistics and customization of basics plots rapidly asses relationships.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Imports:dplyr,ggplot2,gridExtra
+Imports:
+    dplyr,
+    ggplot2,
+    patchwork
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/Lyreshka/summarizePlotR
+BugReports: https://github.com/Lyreshka/summarizePlotR/issues
